@@ -101,6 +101,7 @@ nav{
       background-image: url("home.jpg");
       background-repeat: no-repeat;
       background-size: cover;
+      -webkit-backgorund-size:cover;
       color: white;
       text-shadow: black 0px 0px 10px;
       background-attachment: fixed;
@@ -166,6 +167,7 @@ nav{
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
+    -webkit-backgorund-size:cover;
     z-index:-1;
     color: white;
     text-shadow: black 0px 0px 10px;
