@@ -279,10 +279,7 @@ nav{
 
   /*Main*/
   .banner-area{
-    height: 100%;
-    background-size: 200vw 100vh;
-    background-attachment: fixed;
-    background-position: center;
+    
     
   }
 
