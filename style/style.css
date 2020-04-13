@@ -280,10 +280,10 @@ nav{
   /*Main*/
   .banner-area{
     height: 100%;
-    z-index: -1;
+    
     background-attachment: fixed;
     background-position: center;
-    background-size:cover;
+    
   }
 
   .shop-image img{
