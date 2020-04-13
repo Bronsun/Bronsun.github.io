@@ -316,11 +316,11 @@ nav{
 
   .instagram{
     margin-left: 0;
-    float: left;
+    
   }
 
   .social iframe{
-    width: 50vw;
+    object-position: center;
     
   }
   .contact-text i{
