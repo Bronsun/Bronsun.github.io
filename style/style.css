@@ -48,7 +48,7 @@ nav{
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
 
 }
 .nav-links a:hover{
@@ -102,8 +102,8 @@ nav{
       background-color:none;
       background-image: url("back.JPEG");
       background-repeat: no-repeat;
-      background-size: cover;
-      -webkit-backgorund-size:cover;
+      background-size: 100% auto;
+      -webkit-backgorund-size:100% auto;
       color: white;
       text-shadow: black 0px 0px 10px;
       background-attachment: fixed;
@@ -321,7 +321,7 @@ nav{
 
   /*Main*/
   .banner-area{
-    -webkit-backgorund-size:100%;
+    -webkit-backgorund-size:100% auto;
     
   }
 
