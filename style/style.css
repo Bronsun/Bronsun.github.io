@@ -98,6 +98,7 @@ nav{
       animation: up 1s linear 1;
   }
   .banner-area{
+    z-index:-1000;
       height: 100%;
       background-color:none;
       background-image: url("back.JPEG");
