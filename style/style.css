@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: 'Titillium Web', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -137,6 +137,7 @@ nav{
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     transition: all 0.3s ease 0s;
+    cursor: pointer;
   }
 
 
@@ -146,7 +147,7 @@ nav{
 
 
   .about{
-      background-color: lightgray;
+      background-color: #BFBFBF;
       margin:auto;
      
   }
@@ -169,11 +170,26 @@ nav{
     text-align: left;
     text-align: justify;
   }
+  
   .cytat p{
     text-align: center;
     font-size: 7vw;
     font-family: 'Dancing Script', cursive;
   }
+  .dostawa p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    color:#d3140d;
+  }
+  .luz p{
+    margin-top: 70px;
+    text-align: center;
+  }
+
+
+
+
 
 
   /* Asortyment */
@@ -274,6 +290,9 @@ nav{
      .tag{
        display: none;
      }
+     .banner-area{
+       background-size: cover;
+     }
    }
   
   @media (max-width: 952px){
@@ -321,7 +340,8 @@ nav{
 
   /*Main*/
   .banner-area{
-    -webkit-backgorund-size:100% auto;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
     
   }
 
@@ -346,15 +366,19 @@ nav{
 
 
   .social i{
-    font-size: 20vw;
     float: left;
-    padding: 10px;
     margin-left: 40px;
    
   }
 
   .fejs,.instagram{
-    font-size:30vw;
+    font-size: ;
+    width: 50%;
+    transform: translateX(0%);
+    float: left;
+  }
+  .fejs i{
+    
     
   }
 
