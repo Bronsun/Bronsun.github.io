@@ -102,8 +102,10 @@ nav{
       background-color:none;
       background-image: url("back.JPEG");
       background-repeat: no-repeat;
-      background-size: 100% auto;
-      -webkit-backgorund-size:100% auto;
+      background-size:cover;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0); 
+      will-change: transform;
       color: white;
       text-shadow: black 0px 0px 10px;
       background-attachment: fixed;
@@ -339,11 +341,7 @@ nav{
   }
 
   /*Main*/
-  .banner-area{
-    background-size: cover !important;
-    background-position: 50% 50% !important;
-    
-  }
+  
 
   .shop-image img{
     width: 80vw;
@@ -372,15 +370,12 @@ nav{
   }
 
   .fejs,.instagram{
-    font-size: ;
+  
     width: 50%;
     transform: translateX(0%);
     float: left;
   }
-  .fejs i{
-    
-    
-  }
+ 
 
   .social iframe{
     object-position: center;
