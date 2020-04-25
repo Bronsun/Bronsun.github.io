@@ -150,7 +150,7 @@ nav{
 
 
   .about{
-      background-color: #BFBFBF;
+      background-color: rgb(65, 63, 63);
       margin:auto;
      
   }
@@ -172,6 +172,8 @@ nav{
   .description{
     text-align: left;
     text-align: justify;
+    width: 60%;
+    color:white;
   }
   
   .cytat p{
@@ -261,7 +263,7 @@ nav{
     
     width: 30%;
     margin-top: 5%;
-    transform: translateX(190.5%);
+    transform: translateX(220.5%);
     position: absolute;
     text-shadow: black 0px 0px 10px;
     z-index: 2;
@@ -292,7 +294,10 @@ nav{
    @media(max-width:1024px){
      .tag{
        display: none;
+      
+       
      }
+     
      .banner-area{
        background-size: cover;
      }
@@ -341,6 +346,10 @@ nav{
     transform: translateX(0%);
   }
 
+
+
+
+
   /*Main*/
   .banner-area{
     background-attachment:scroll;
@@ -350,6 +359,19 @@ nav{
     width: 80vw;
     height: 40vh;
   }
+  .about-text{
+    text-align: center;
+  
+  }
+  .description{
+    width: 100%;
+  }
+  .cytat p{
+    font-size: 15vw;
+  }
+
+
+
  /*Asortymen RWB*/
   .asortyment{
     height: 100%;
