@@ -101,7 +101,7 @@ nav{
     z-index:-1000;
       height: 100%;
       background-color:none;
-      background-image: url("back.JPEG");
+      background-image: url("back.JPG");
       background-repeat: no-repeat;
       background-size:cover;
       -webkit-transform: translateZ(0);
@@ -116,14 +116,19 @@ nav{
   }
 
   .banner-text button{
+    text-shadow: black 0px 0px 10px;
     font-size: 22px;
     border:none;
-    background: #d3140d;
+    background: none;
+    border:solid 2px white;
+    border-radius: 70%;
+    font-weight: 900 !important;
     color: #ffffff !important;
     font-weight: 100;
     padding: 20px;
     text-transform: uppercase;
-    border-radius: 6px;
+    color: white !important;
+    box-shadow: 0px 1px 20px -5px rgba(0,0,0,0,0.57);
     display: inline-block;
     transition: all 0.3s ease 0s;
     animation: up 1s linear 1;
@@ -133,14 +138,18 @@ nav{
 
 
   button:hover{
-    color: #404040 !important;
-    font-weight: 700 !important;
-    letter-spacing: 3px;
-    background: white;
+    color: white!important;
+    font-weight: 900 !important;
+    letter-spacing: 0;
+    background:none;
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     transition: all 0.3s ease 0s;
     cursor: pointer;
+  }
+
+  .arrow{
+    animation: arrow 1s infinite linear;
   }
 
 
@@ -193,28 +202,6 @@ nav{
   }
 
 
-
-
-
-
-  /* Asortyment */
-  .asortyment{
-    background-color:none;
-    background-image: url("asortyment.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
-    -webkit-backgorund-size:cover;
-    z-index:-1;
-    color: white;
-    text-shadow: black 0px 0px 10px;
-  }
-  .asortyment img{
-      width: 50%;
-      flex-basis: 50%;
-      text-align: center;
-      padding: 5px;
-  }
   /*Kontakt&*/
   .contact{
       color: white;
@@ -223,27 +210,23 @@ nav{
    .social {
     display: grid;
     grid-template-columns:repeat(2,6fr);
-   
     letter-spacing: 0;
-   
     padding: 0;
-   
     font-size: 90px;
     color:white;
    }
-   .fejs{
-       margin-right: 0;
-   }
-   .fejs:hover{
-       cursor: pointer;
-       color:#3b5998;
-   }
-   .instagram:hover{
+   
+   .instagram a:hover{
     color:#e4405f;
     cursor: pointer;
 }
    .instagram{
        margin-left: 0;
+       text-decoration: none !important;
+   }
+   .instagram a{
+    text-decoration: none !important;
+    color:white;
    }
    .social iframe{
        margin-left:51%;
@@ -257,6 +240,10 @@ nav{
    }
    .contact-text i{
      font-size: 30px;
+   }
+   .contact-text a {
+     text-decoration:none ;
+     color: white;
    }
 
    .tag{
@@ -396,9 +383,10 @@ nav{
 
   .fejs,.instagram{
   
-    width: 50%;
+    width: 100%;
     transform: translateX(0%);
-    float: left;
+    text-align: center;
+    
   }
  
 
@@ -464,6 +452,21 @@ nav{
       transform:translateX(0px);
   }
 }
+@keyframes arrow{
+  from{
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(25px);
+    opacity:1;
+  }
+
+}
+
+
+
+
 .toggle .line1{
   transform: rotate(-45deg) translate(-5px,6px);
 }
