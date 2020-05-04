@@ -279,6 +279,12 @@ nav{
 
    /*RWD*/
    @media(max-width:1024px){
+     .tag img{
+        width: 99%;       
+     }
+   }
+
+   @media(max-width:1023px){
      .tag{
        display: none;
       
